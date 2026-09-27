@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "articles": [
+    {
+      "slug": "dabdaw-stages-of-ai-grief",
+      "title": "DABDAW - Stages of AI Grief",
+      "topic": "AI grief, Kübler-Ross model",
+      "category": "ai-culture",
+      "description": "Kübler-Ross gave us five stages of grief. Nobody warned her about the chatbots.",
+      "created": "2026-09-27T16:11:31.693Z",
+      "updated": "2026-09-27T16:11:31.693Z",
+      "source": {
+        "path": "articles/dabdaw-stages-of-ai-grief/article.md",
+        "hash": null
+      },
+      "content": {
+        "path": "articles/dabdaw-stages-of-ai-grief/index.html",
+        "bytes": null,
+        "words": null,
+        "hash": null
+      },
+      "images": [
+        {
+          "file": "header.svg",
+          "kind": "header",
+          "generator": "ollama-cloud:glm-5.2",
+          "seed": "1961931917",
+          "generatedAt": "2026-09-27T16:46:04.365Z"
+        }
+      ],
+      "cdn": {
+        "html": "articles/dabdaw-stages-of-ai-grief/index.html",
+        "images": [
+          "header.svg"
+        ]
+      },
+      "urls": {
+        "html": "https://cdn.rbk.dev/articles/dabdaw-stages-of-ai-grief/index.html",
+        "images": {
+          "header.svg": "https://cdn.rbk.dev/articles/dabdaw-stages-of-ai-grief/header.svg",
+          "index.html": "https://cdn.rbk.dev/articles/dabdaw-stages-of-ai-grief/index.html"
+        }
+      },
+      "aiLabel": {
+        "scheme": "ai-label.org",
+        "symbol": "made-with-ai",
+        "text": "Written with AI assistance"
+      },
+      "published": true,
+      "lastPublished": "2026-09-27T16:47:10.845Z"
+    }
+  ]
+}
