@@ -1,0 +1,18 @@
+{
+  "name": "articles",
+  "version": "1.0.0",
+  "description": "Article publishing pipeline: markdown → themed HTML → CDN. Auto-maintained manifest, Pi-generated SVG header images, ai-label.org disclosure labels.",
+  "type": "module",
+  "bin": {
+    "articles": "./bin/articles.mjs"
+  },
+  "scripts": {
+    "start": "node bin/articles.mjs"
+  },
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "^0.85.1",
+    "marked": "^15.0.0",
+    "ollama": "^0.6.3"
+  },
+  "license": "MIT"
+}
