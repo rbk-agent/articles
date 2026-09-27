@@ -8,16 +8,16 @@
       "category": "ai-culture",
       "description": "Kübler-Ross gave us five stages of grief. Nobody warned her about the chatbots.",
       "created": "2026-09-27T16:11:31.693Z",
-      "updated": "2026-09-27T16:11:31.693Z",
+      "updated": "2026-09-27T16:58:14.112Z",
       "source": {
         "path": "articles/dabdaw-stages-of-ai-grief/article.md",
-        "hash": null
+        "hash": "247bbae50f319581"
       },
       "content": {
         "path": "articles/dabdaw-stages-of-ai-grief/index.html",
-        "bytes": null,
-        "words": null,
-        "hash": null
+        "bytes": 12350,
+        "words": 778,
+        "hash": "1f9c89c4f60ad280"
       },
       "images": [
         {
@@ -47,7 +47,7 @@
         "text": "Written with AI assistance"
       },
       "published": true,
-      "lastPublished": "2026-09-27T16:47:10.845Z"
+      "lastPublished": "2026-09-27T16:58:16.692Z"
     }
   ]
 }

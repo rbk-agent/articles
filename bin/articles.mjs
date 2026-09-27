@@ -136,8 +136,9 @@ async function ensureHeaderImage(manifest, article) {
   console.log(`header image: ${img.generator} (seed ${img.seed})`);
 }
 
-async function cmdBuild(slug, flags) {
-  const { manifest, article } = loadArticleOrThrow(slug);
+async function cmdBuild(slug, flags, ctx) {
+  const loaded = ctx ?? loadArticleOrThrow(slug);
+  const { manifest, article } = loaded;
   const theme = flags.theme || DEFAULT_THEME;
   await ensureHeaderImage(manifest, article);
   const { html, md } = await buildHtml(article, theme);
@@ -156,8 +157,9 @@ async function cmdBuild(slug, flags) {
 }
 
 async function cmdPublish(slug, flags) {
-  const { manifest, article } = loadArticleOrThrow(slug);
-  await cmdBuild(slug, flags);
+  const ctx = loadArticleOrThrow(slug);
+  const { manifest, article } = ctx;
+  await cmdBuild(slug, flags, ctx);
   const dir = join(ARTICLES_DIR, slug);
   const cdnBase = `articles/${slug}`;
   const urls = {};
